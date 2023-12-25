@@ -1,2 +1,16 @@
 # 3760
 https://blog.left.pink/archives/3760 中用到的脚本
+
+自行申请 settings.json 中提到的 Api Key
+
+## 感谢
+
+脚本在以下几位大师的指导下完成
+
+<img src="https://github.com/Left024/3760/assets/20574903/8434a2c5-7682-418e-af59-3bf7d2a74249" width="200px" />
+
+## Radarr
+
+懒人用法：将 Radarr 文件夹放入 /root/ 目录，并给 run.sh 授予可执行权限，在 /root/Radarr/ 目录中创建 image 文件夹
+
+建议先手动运行下看能否运行，缺少什么依赖
