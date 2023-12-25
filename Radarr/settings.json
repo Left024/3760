@@ -1,0 +1,8 @@
+{
+    "bot_token":"", #Telegram Bot Token
+    "userid":, #Telegram User ID
+    "themoviedb_api_key":"", #TMDB Api Key
+    "omdb_apikey":"", #OMDB Api Key
+    "radarr_delete_folder":"", #Radarr 回收站目录地址
+    "image_folder":"/root/radarr/image" #存储封面图的目录地址
+}
