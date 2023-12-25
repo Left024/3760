@@ -1,5 +1,17 @@
 #!/bin/bash
 
+: '
+radarr_eventtype="Grab"
+radarr_movie_imdbid="tt1670345"
+radarr_movie_title="Now You See Me"
+radarr_movie_year="2013"
+radarr_release_quality="Remux-2160p"
+radarr_release_size="56144584704"
+radarr_release_title="Now You See Me 2013 Theatrical 2160p UHD BluRay REMUX HDR HEVC Atmos-EPSiLON"
+radarr_release_indexer="TorrentLeech"
+radarr_movie_tmdbid="75656"
+'
+
 if [ "${radarr_eventtype}" = "Grab" ]; then
     json="{
         \"radarr_eventtype\":\"Grab\",
