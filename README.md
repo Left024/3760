@@ -11,6 +11,8 @@ https://blog.left.pink/archives/3760 中用到的脚本
 
 ## Radarr
 
-懒人用法：将 Radarr 文件夹放入 /root/ 目录，并给 run.sh 授予可执行权限，在 /root/Radarr/ 目录中创建 image 文件夹
+懒人用法：将 Radarr 文件夹放入 /root/ 目录，并给 run.sh 授予可执行权限，在 /root/Radarr/ 目录中创建 image 文件夹，Radarr 中如图设置即可
+
+<img src="https://chevereto.left.pink/images/2023/12/27/20231227011927.png" width="300px" />
 
 建议先手动运行下看能否运行，缺少什么依赖
