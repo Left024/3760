@@ -75,6 +75,6 @@ fi
 
 current_time=$(date +"%Y-%m-%d %H:%M:%S")
 
-/usr/bin/python3 /root/radarr/run.py "${json}" & #将 python 脚本地址修改为你的
+/usr/bin/python3 /root/Radarr/run.py "${json}" & #将 python 脚本地址修改为你的
 
 exit
