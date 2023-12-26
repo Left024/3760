@@ -1,0 +1,10 @@
+{
+    "bot_token":"", #Telegram Bot Token
+    "userid": , #Telegram User ID
+    "themoviedb_api_key":"", #TMDB Api Key
+    "omdb_apikey":"", #OMDB Api Key
+    "sonarr_delete_folder":"", #Sonarr 回收站目录地址
+    "image_folder":"/root/Sonarr/image", #存储封面图的目录地址
+    "sonarr_adress":"http://192.168.10.9:8989", #Sonarr 本地目录
+    "sonarr_api_key":"" #Sonarr Api Key
+}
