@@ -61,6 +61,6 @@ elif [ "${sonarr_eventtype}" = "Download" ]; then
         }"
 fi
 
-/usr/bin/python3 /root/Sonarr/run.py "${json}" &
+/usr/bin/python3 /root/Sonarr/run.py "${json}" & #将 python 脚本地址修改为你的
 
 exit
