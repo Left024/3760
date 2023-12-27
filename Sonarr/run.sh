@@ -1,5 +1,23 @@
 #!/bin/bash
 
+:'
+#测试用例
+sonarr_eventtype="Grab"
+sonarr_release_size="510205632"
+sonarr_release_seasonnumber="1"
+sonarr_release_title="The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You S1E7 [简繁日][内封][1080P][WEBRip][-喵萌奶茶屋&LoliHouse]"
+sonarr_release_episodenumbers="7"
+sonarr_release_episodetitles="Saying Hello to the Chemistry Girl"
+sonarr_release_indexer="mikan_jproxy"
+sonarr_release_customformatscore="500"
+sonarr_series_title="The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You"
+sonarr_series_year="2023"
+sonarr_release_quality="WEBRip-1080p"
+sonarr_series_imdbid="tt28919914"
+sonarr_release_episodecount="1"
+sonarr_release_customformat="Chinese|LoliHouse|喵萌奶茶屋|简|简繁|简繁日"
+'
+
 if [ "${sonarr_eventtype}" = "Grab" ]; then
     json="{
         \"sonarr_eventtype\":\"Grab\",
