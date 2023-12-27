@@ -1,6 +1,7 @@
 #!/bin/bash
 
 : '
+#测试用例
 radarr_eventtype="Grab"
 radarr_movie_imdbid="tt1670345"
 radarr_movie_title="Now You See Me"
