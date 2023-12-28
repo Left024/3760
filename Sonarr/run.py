@@ -455,7 +455,8 @@ elif query['sonarr_eventtype'] == "Download":
     localPath=query['sonarr_episodefile_path']
     
     isSeasonPack = re.search( r'(\.S\d+\.)|(\sS\d+\s)|(\.S\d+E\d+-E?\d+\.)|(\.S\d+E\d+–E?\d+\.)|(\sS\d+E\d+-E?\d+\s)|(\sS\d+E\d+–E?\d+\s)|(\.S\d+E\d+~E?\d+\.)|(\sS\d+E\d+~E?\d+\s)', query['sonarr_release_title'], re.I)
-    
+
+    fileSize=getFileSize(query['sonarr_episodefile_path'])
     if isSeasonPack:
         tag=getTagBySize(int(query['sonarr_release_size']))
         if tag not in query['sonarr_episodefile_path']:
@@ -463,11 +464,7 @@ elif query['sonarr_eventtype'] == "Download":
             if rename:
                 localPath=rename
                 fileSize=getFileSize(localPath)
-            else:
-                fileSize=getFileSize(query['sonarr_episodefile_path'])
             refreshSeries(int(query['sonarr_series_id']))
-    else:
-        fileSize=getFileSize(query['sonarr_episodefile_path'])
         
     caption=caption+"<b>本地路径：</b>"+localPath+"\n"+"<b>大小：</b>"+fileSize+"\n<b>来源：</b>"+query['sonarr_release_indexer']+"\n<b>自定义格式：</b>"+query['sonarr_episodefile_customformat']+"\n<b>自定义格式评分：</b>"+query['sonarr_episodefile_customformatscore']
     
